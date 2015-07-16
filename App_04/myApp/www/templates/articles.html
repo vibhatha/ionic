@@ -1,0 +1,11 @@
+<ion-view view-title="Articles">
+  <ion-content>
+    <h1>Articles</h1>
+     <h2> Number of Articles {{count}}</h2>
+      <ul ng-repeat="article in articleList"  >
+          <li>Title: {{article.title}} ==> Content: {{article.content}}</li>
+      </ul>
+      
+      
+  </ion-content>
+</ion-view>
